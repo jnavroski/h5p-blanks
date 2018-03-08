@@ -8,7 +8,7 @@
           "description": "Et valgfritt multimediaelement som skal vises over spørsmålet."
         },
         {
-          "label": "Slå av bilde zooming."
+          "label": "Slå av bilde zooming"
         }
       ]
     },

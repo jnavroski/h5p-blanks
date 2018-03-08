@@ -8,7 +8,7 @@
           "description": "Fichier média à afficher en option au-dessus de la question."
         },
         {
-          "label": "Désactiver l'agrandissement de l'image."
+          "label": "Désactiver l'agrandissement de l'image"
         }
       ]
     },

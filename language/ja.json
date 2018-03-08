@@ -8,7 +8,7 @@
           "description": "設問の上に表示するオプションのメディア。"
         },
         {
-          "label": "Disable image zooming."
+          "label": "Disable image zooming"
         }
       ]
     },
