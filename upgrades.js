@@ -90,7 +90,7 @@ H5PUpgrades['H5P.Blanks'] = (function ($) {
        */
       9: function (parameters, finished) {
         // If image has been used, move it down in the hierarchy and add disableImageZooming
-        if (parameters && parameters.media && parameters.media.library && parameters.media.library.split(' ')[0] === 'H5P.Image') {
+        if (parameters && parameters.media) {
           parameters.media = {
             type: parameters.media,
             disableImageZooming: (parameters.behaviour && parameters.behaviour.disableImageZooming) ? parameters.behaviour.disableImageZooming : false

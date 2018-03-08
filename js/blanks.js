@@ -76,8 +76,7 @@ H5P.Blanks = (function ($, Question) {
         caseSensitive: true,
         showSolutionsRequiresInput: true,
         autoCheck: false,
-        separateLines: false,
-        disableImageZooming: false
+        separateLines: false
       }
     }, params);
 
@@ -130,7 +129,7 @@ H5P.Blanks = (function ($, Question) {
         if (media.params.file) {
           // Register task image
           self.setImage(media.params.file.path, {
-            disableImageZooming: self.params.media.disableImageZooming,
+            disableImageZooming: self.params.media.disableImageZooming || false,
             alt: media.params.alt
           });
         }
