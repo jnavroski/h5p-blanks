@@ -123,14 +123,14 @@ H5P.Blanks = (function ($, Question) {
     var self = this;
 
     // Check for task media
-    var media = self.params.media;
+    var media = self.params.media.type;
     if (media && media.library) {
       var type = media.library.split(' ')[0];
       if (type === 'H5P.Image') {
         if (media.params.file) {
           // Register task image
           self.setImage(media.params.file.path, {
-            disableImageZooming: self.params.behaviour.disableImageZooming,
+            disableImageZooming: self.params.media.disableImageZooming,
             alt: media.params.alt
           });
         }

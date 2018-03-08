@@ -6,6 +6,9 @@
         {
           "label": "Type",
           "description": "Optionele media, die boven de vragen worden getoond"
+        },
+        {
+          "label": "Disable image zooming."
         }
       ]
     },
@@ -127,9 +130,6 @@
         },
         {
           "label": "Put input fields on separate lines"
-        },
-        {
-          "label": "Disable image zooming for question image"
         },
         {
           "label": "Show confirmation dialog on \"Check\"",

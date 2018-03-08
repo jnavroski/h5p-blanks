@@ -6,6 +6,9 @@
         {
           "label": "Type",
           "description": "Optional media to display above the question."
+        },
+        {
+          "label": "Disable image zooming."
         }
       ]
     },
@@ -127,9 +130,6 @@
         },
         {
           "label": "وضع فراغات الكلمات على خطوط منفصلة"
-        },
-        {
-          "label": "Disable image zooming for question image."
         },
         {
           "label": "Show confirmation dialog on \"Check\"",
